@@ -1,0 +1,74 @@
+CHANGELOG - Database & File Manager
+====================================
+
+VERSION 2.0 - Universal File Support
+-------------------------------------
+
+NEW FEATURES:
+-------------
+
+1. SAVE ANY FILE TYPE (Except Images)
+   - Application now supports opening, editing, and saving ANY file format
+   - Only image files are excluded (.png, .jpg, .jpeg, .gif, .bmp, .ico, .svg, .webp, .tiff, .tif)
+   - All text-based and binary files are supported
+
+2. NEW FILE CREATION
+   - "New File" menu option
+   - Create blank files with any extension
+   - Start typing immediately
+
+3. SAVE AS FUNCTIONALITY
+   - "Save As" menu option
+   - Save current file with new name/location
+   - Change file extension on save
+
+4. CLOSE TAB FEATURE
+   - "Close Tab" menu option
+   - Close individual tabs without exiting app
+   - Clean up workspace easily
+
+5. ENHANCED FILE BROWSER
+   - File tree now shows ALL non-image files
+   - No more limitations on file extensions
+   - Universal file support
+
+6. AUTO-TRACKING SYSTEM
+   - Application tracks which file is in which tab
+   - Save operation knows exactly where to save
+   - Untitled files can be saved with "Save As"
+
+SUPPORTED FILE OPERATIONS:
+--------------------------
+✓ Create new files with any extension
+✓ Open existing files (except images)
+✓ Edit file contents in text editor
+✓ Save changes to original file location
+✓ Save with new name/location using Save As
+✓ Close tabs individually
+✓ Multiple files open simultaneously
+
+FILE TYPES YOU CAN NOW WORK WITH:
+----------------------------------
+- Source code: .java, .py, .js, .c, .cpp, .go, .rs, .rb, .php
+- Web: .html, .css, .scss, .jsx, .tsx, .vue
+- Config: .json, .yaml, .yml, .toml, .ini, .cfg, .conf
+- Data: .csv, .tsv, .xml
+- Documentation: .md, .rst, .txt
+- Database: .sql, .db, .sqlite, .odb
+- Scripts: .sh, .bash, .bat, .ps1
+- Logs: .log
+- And literally ANY other file format except images!
+
+KEYBOARD SHORTCUTS (Standard):
+-------------------------------
+Ctrl/Cmd + S = Save
+Ctrl/Cmd + Shift + S = Save As
+Ctrl/Cmd + W = Close Tab
+
+PREVIOUS VERSION 1.0:
+---------------------
+- SQLite database management
+- Table viewer and editor
+- SQL import/export
+- Basic document support
+- File monitoring

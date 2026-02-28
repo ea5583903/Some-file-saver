@@ -1,0 +1,65 @@
+DATABASE & FILE MANAGER - SAVE FEATURES
+========================================
+
+SAVE ANY FILE TYPE
+------------------
+The application can now save ANY file format except images!
+
+HOW TO USE:
+-----------
+
+1. CREATE NEW FILE
+   - File Menu > New File
+   - Creates a blank text editor
+   - Type your content
+   - Save with any extension you want
+
+2. OPEN EXISTING FILE
+   - File Menu > Open File
+   - Browse to any file (except images)
+   - Edit the content
+   - Save changes
+
+3. SAVE OPTIONS
+   - Save: Overwrites the original file
+   - Save As: Save with a new name/location/extension
+
+4. SUPPORTED OPERATIONS
+   - Create/edit code files (.java, .py, .js, .c, .cpp, etc.)
+   - Create/edit configuration files (.json, .yaml, .xml, .ini, etc.)
+   - Create/edit documents (.txt, .md, .rst, .csv, etc.)
+   - Create/edit SQL files (.sql)
+   - Save any custom file extension you need
+
+EXCLUDED FILE TYPES (Cannot Save):
+-----------------------------------
+- Image files: .png, .jpg, .jpeg, .gif, .bmp, .ico, .svg, .webp, .tiff, .tif
+
+These are excluded to prevent corruption of binary image data.
+
+EXAMPLES:
+---------
+1. Create a JSON config file:
+   - New File
+   - Type: {"setting": "value"}
+   - Save As > myconfig.json
+
+2. Create a Python script:
+   - New File
+   - Type: print("Hello World")
+   - Save As > script.py
+
+3. Edit SQL file:
+   - Open File > queries.sql
+   - Make changes
+   - Save
+
+4. Create custom extension:
+   - New File
+   - Type your content
+   - Save As > myfile.custom
+
+ALL FILES ARE EDITABLE!
+-----------------------
+Any text-based file can be opened, edited, and saved.
+The file tree browser will show all non-image files for easy access.
